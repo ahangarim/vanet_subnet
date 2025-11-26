@@ -1,0 +1,61 @@
+{
+  "description": "Reference data paths for VANET genomics subnet",
+  "chromosome": "chr20",
+  "contig_length": 64444167,
+  "ref_build": "GRCh38",
+  "data": {
+    "bam": {
+      "local": "datasets/bams/sample.GRCh38.300x_chr20.bam",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/bams/sample.GRCh38.300x_chr20.bam"
+    },
+    "bam_index": {
+      "local": "datasets/bams/sample.GRCh38.300x_chr20.bam.bai",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/bams/sample.GRCh38.300x_chr20.bam.bai"
+    },
+    "reference": {
+      "local": "datasets/reference/chr20.fa",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/reference/chr20.fa"
+    },
+    "reference_index": {
+      "local": "datasets/reference/chr20.fa.fai",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/reference/chr20.fa.fai"
+    },
+    "reference_dict": {
+      "local": "datasets/reference/chr20.dict",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/reference/chr20.dict"
+    },
+    "reference_sdf": {
+      "local": "datasets/reference/chr20.sdf",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/reference/chr20.sdf"
+    },
+    "truth_vcf": {
+      "local": "datasets/truth/sample_GRCh38_1_22_v4.2.1_benchmark.chr20.vcf.gz",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/truth/sample_GRCh38_1_22_v4.2.1_benchmark.chr20.vcf.gz"
+    },
+    "truth_vcf_index": {
+      "local": "datasets/truth/sample_GRCh38_1_22_v4.2.1_benchmark.chr20.vcf.gz.csi",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/truth/sample_GRCh38_1_22_v4.2.1_benchmark.chr20.vcf.gz.csi"
+    },
+    "truth_bed": {
+      "local": "datasets/truth/sample_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.chr20.bed",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/truth/sample_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.chr20.bed"
+    },
+    "truth_vcf_full": {
+      "local": "datasets/truth/sample_GRCh38_1_22_v4.2.1_benchmark.vcf.gz",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/truth/sample_GRCh38_1_22_v4.2.1_benchmark.vcf.gz"
+    },
+    "truth_vcf_full_index": {
+      "local": "datasets/truth/sample_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.csi",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/truth/sample_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.csi"
+    },
+    "truth_bed_full": {
+      "local": "datasets/truth/sample_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed",
+      "s3": "https://vanetdata.s3.us-east-1.amazonaws.com/truth/sample_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed"
+    }
+  },
+  "region_bounds": {
+    "min_start": 10000000,
+    "max_start": 55000000,
+    "window_size": 5000000
+  }
+}
