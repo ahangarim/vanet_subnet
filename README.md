@@ -332,12 +332,3 @@ Logs are emitted via `bt.logging`. Use `--logging.trace` for verbose debugging.
 
 Need a quick standalone dry-run? Use the transferred scripts in `docs/tools_and_data.md` to reproduce any stage outside the Bittensor network (ideal for integration tests and CI).
 
----
-
-## License & Support
-
-- License: [Add license here]
-- Issues: submit to this repository with logs + software versions
-- Community: join the project’s Discord or Bittensor forums for validator/miner coordination
-
-Happy mining and validating! 🚀
